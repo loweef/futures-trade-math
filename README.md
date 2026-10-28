@@ -45,7 +45,7 @@ const funding = fundingCost(10000, 0.0001, 3, 'long');                  // 3
 const be = breakEvenPrice('long', 50000, 0.2, 0.0005, 0.0005, funding); // 50065.0325...
 ```
 
-Python (3.8+):
+Python (3.8+; CI tests 3.10, 3.12 and 3.13):
 
 ```sh
 pip install "git+https://github.com/loweef/futures-trade-math#subdirectory=python"
@@ -199,7 +199,7 @@ npm test                                              # JavaScript (node:test)
 cd python && python -m unittest discover -s tests -v  # Python (unittest)
 ```
 
-Both suites also check two identities: `p = 1 / (1 + RR_net)`, and that net PnL is zero at the break-even price. CI runs Node 18/20/22 and Python 3.9/3.11/3.13.
+Both suites also check two identities: `p = 1 / (1 + RR_net)`, and that net PnL is zero at the break-even price. CI runs Node 18/20/22 and Python 3.10/3.12/3.13.
 
 ## Related
 
