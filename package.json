@@ -1,0 +1,15 @@
+{
+  "name": "futures-trade-math",
+  "version": "0.1.0",
+  "description": "Zero-dependency formulas for crypto futures trading costs and risk: round-trip fees, funding cost, exact break-even price, break-even win rate, fee-aware position sizing, isolated liquidation estimate, funding APR.",
+  "type": "module",
+  "main": "js/index.mjs",
+  "exports": "./js/index.mjs",
+  "files": ["js/index.mjs", "test-vectors.json"],
+  "scripts": { "test": "node --test js/vectors.test.mjs" },
+  "engines": { "node": ">=18" },
+  "keywords": ["crypto", "futures", "perpetual", "funding-rate", "break-even", "position-sizing", "risk-management", "trading-fees"],
+  "license": "MIT",
+  "author": "loweef (https://loweef.io)",
+  "repository": { "type": "git", "url": "git+https://github.com/loweef/futures-trade-math.git" }
+}

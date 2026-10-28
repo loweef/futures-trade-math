@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "futures-trade-math"
+version = "0.1.0"
+description = "Zero-dependency formulas for crypto futures trading costs and risk."
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "loweef" }]
+keywords = ["crypto", "futures", "perpetual", "funding-rate", "break-even", "position-sizing", "risk-management"]
+
+[project.urls]
+Source = "https://github.com/loweef/futures-trade-math"
+
+[tool.setuptools]
+packages = ["futures_trade_math"]

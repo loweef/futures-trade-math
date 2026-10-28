@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "futures-trade-math: formulas for crypto futures trading costs and risk"
+version: "0.1.0"
+date-released: "2026-10-28"
+repository-code: "https://github.com/loweef/futures-trade-math"
+license: MIT
+authors:
+  - name: "loweef"
+    website: "https://loweef.io"
+keywords:
+  - crypto futures
+  - perpetual swap
+  - funding rate
+  - break-even price
+  - position sizing
+  - liquidation price
+  - risk management
